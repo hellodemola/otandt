@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.header-text--content{
+    padding: 8em 0;
+}
+
+.header-text--content h1{
+    line-height: 1.5;
+}
+
+.weight-light{
+    font-weight: 300;
+}
+
+.font-weight-bold{
+    font-weight: 700;
+}
+
+
+#myvideo{
+    width: 100%;
+    /* min-height: 100% */
+}
+
+.pad{
+    padding-left: 4em;
+}
+
+.btn{
+    border-radius: 20px;
+    padding:0.4em 0.4em;
+}
+
+.btn:hover{
+    background: tomato;
+    border: none;
+   
+}
+
+.pattern-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://assets.website-files.com/5cb09a0…/5cc2f22…_Pattern.png);
+    background-position: 0 0;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    opacity: .4;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+.color-black {
+    background-color: #000;
+}
+
+.background-video {
+    z-index: 1;
+    height: 100%;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+
+/* .w-background-video {
+    position: relative;
+    height: 500px;
+    color: #fff;
+} */
+
+
+.padding{
+    padding: 4em 0;
+}
+
+.bg-black{
+    background: black
+}
+
+.bg-grey{
+    background: #f7f7f7;
+}
+
