@@ -8,25 +8,22 @@ body p{
     line-height: 1.7;
 }
 
-.serv h5{
-    /* font-family: 'oswald'; */
-    /* color: #222222; */
-}
-
 .images img{
     width: 100%;
 }
 
 .images{
-    width: 20em;
-    height: 20em;
-    border: 1px solid brown;
+    width: 100%;
+    height: 18em;
+    background: url('../asset/photo/dashh.png');
+    background-size: cover;
+    /* border: 1px solid brown; */
     margin: 1em 0;
 }
 
 
 .cert-img img{
-    width: 100%;
+    width: 10em;
      filter: gray; /* IE5+ */
     -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
     -webkit-transition: all .8s ease-in-out;
