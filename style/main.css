@@ -40,8 +40,14 @@ body p{
     padding: 8em 0;
 }
 
+
+
 .header-text--content h1{
     line-height: 1.5;
+}
+
+.header-text--content-about{
+    padding: 8em 0;
 }
 
 .weight-light{
@@ -54,8 +60,29 @@ body p{
 
 
 #myvideo{
-    width: 100%;
-    /* min-height: 100% */
+    /* width: 100%; */
+    min-height: 100%;
+}
+
+#myvideo2{
+    /* width: 100%; */
+    min-height: 100%;
+}
+
+#myvideo3{
+    /* width: 100%; */
+    min-height: 100%;
+}
+
+.form input{
+    border: none;
+    border-bottom: 2px solid #000000;
+    /* padding-left: 1em; */
+    background: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000000;
 }
 
 .pad{
@@ -142,3 +169,6 @@ h1, h2, h3, h4, h5, h6{
     background: #f7f7f7;
 }
 
+#mapid{
+    height: 400px;
+}
