@@ -50,6 +50,8 @@ body p{
     padding: 8em 0;
 }
 
+
+
 .weight-light{
     font-weight: 300;
 }
@@ -72,6 +74,12 @@ body p{
 #myvideo3{
     /* width: 100%; */
     min-height: 100%;
+}
+
+@media (max-width: 500px) {
+    .hidden-sm-down{
+        display: none;
+    }
 }
 
 .form input{
