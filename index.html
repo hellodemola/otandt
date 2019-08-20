@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="tomato">
-    <meta the>
     <title>Official website for OT and T</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./asset/css/font-awesome.min.css">
@@ -18,23 +17,26 @@
 	<script>
 		new WOW().init();
 	</script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
 
     <link rel="stylesheet" href="./style/main.css">
 
-
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+  integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+  crossorigin=""></script>
+   
 </head>
 
 <body>
-
-        <div class="loader loader-top">
-                <div class="spinner"></div>
-            </div>
 
     <nav class="nav navbar shadow  navbar-expand-lg text-black navbar-light bg-white shadow">
         <!-- <div class="container"> -->
             <a class="navbar-brand">
                 <span class="font-weight-bold ">
-                        OT&T Consulting
+                    OT&T Consulting
                 </span>
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -46,13 +48,11 @@
             <div class="collapse navbar-collapse text-black" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto   font-weight-bold text-black">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
+                   
                     <li class="nav-item">
-                        <a class="nav-link" href="service.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -69,278 +69,120 @@
             <div class="row no-gutters">
                 <div class="col-md-5 ">
                     <div class="container-fluid">
-                        <div class="header-text--content ">
-                            <h1 class="font-weight-bold">Launch your <br> new <br> <span class="text-danger element">
+                        <div class="header-text--content header-text--content-about" >
+                            <h1 class="font-weight-bold">We are<br> <span class="text-danger element">
                                 </span></h1>
                             <br>
-                            <h6 class="header-text--subtitle weight-light">Innovation & advanced technology</h6>
+                            <h6 class="header-text--subtitle">Innovation & advanced technology</h6>
                             <br>
-                            <button class="btn btn-outline-danger"><i class="fa fa-eye"></i> Previous Works</button>
+                          <a href="mailto:info@otandtconsulting.com?subject='Request%20for%20quote'"  <button class="btn btn-outline-danger"><i class="fa fa-money"></i> Request a Quote</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7 hidden-sm-down ">
+                <div class="col-md-7 " style="background: url('./asset/photo/about.jpg'); background-size: cover">
                     <div class='pattern-overlay'></div> 
-                    <!-- <div class="background-overlay color-black multiply"></div>  -->
-                    <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="/asset/video/layer.png" data-video-urls="./asset/video/office.mp4" class="background-video w-background-video w-background-video-atom" style="">
-                        
-                        <video autoplay="" loop="" style="background-image:url('/asset/video/layer.png'); " muted="" playsinline="" data-wf-ignore="true" id="myvideo">
-
-                            <source src="./asset/video/office.mp4" data-wf-ignore="true">
-                            
-                            <source src="./asset/video/office.webm" data-wf-ignore="true">
-                        
-                        </video>
-                    
-                    </div> 
-
+                                    
+    
                 </div>
+
 
             </div>
         <!-- </div> -->
   
     </section>
 
-    <section class="bg-black text-light padding">
+    <section class="bg-danger text-light padding">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9">
-                    <h2 class="text-center  font-weight-bold text-uppercase wow fadeIn">Our Mission</h4>
-                        <h5 class=" text-center wow fadeIn"> OT&T's mission is to develop local human capital, build long term
-                            relationships with our customers and provide exceptional services that exceed expectations
-                            through innovation and advanced technology. </h5>
+                    <h2 class="text-center  font-weight-bold text-uppercase">Our Vision</h4>
+                        <h5 class=" text-center"> OT&T's vision is to build organically a locally focussed technology solutions group across Africa and to become the partner of choice for technology solutionsimplementation and support, regardless of the industry</h5>
 
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-grey padding">
-        <div class="container ">
-            <h2 class="font-weight-bold wow fade ">Our Services </h2>
-            <i class="text-danger wow fadeInDown"> Unique, tailor-made & enhanced </i>
-            <br><br>
-            <div class="row fadeInDown">
-               
-                <div class="col-md-4">
-                    <h5 class=" font-weight-bold">
-                        Application Development
-                    </h5>
-
-                    <p class="">
-                        some content about application development and why it is important to you to try us out.
-                    </p>
-
-                </div>
-                <div class="col-md-4">
-                    <h5 class="font-weight-bold">
-                        Hardware and Software
-
-                    </h5>
-
-                    <p class="">
-                        Some content about hardware and software and why it is important to you and try us out.
-                    </p>
-
-
-                </div>
-
-                <div class="col-md-4">
-                    <h5 class="font-weight-bold">
-                        Infrastruction life-cycle
-
-                    </h5>
-
-                    <p class="">
-                        Some content about Infrastruction life cycle and why it is need and good to try us out.
-                    </p>
-
-
-                </div>
-            </div>
-
-
-            <div class="row ">
-                <div class="col-md-4">
-                    <h5 class="font-weight-bold">
-                        Network Management
-                    </h5>
-
-                    <p class="">
-                        Some content about Network management and why you need to try us
-                    </p>
-
-                </div>
-                <div class="col-md-4">
-                    <h5 class=" font-weight-bold">
-                        Back-up management
-                    </h5>
-
-                    <p class="">
-                        Some content about Back-up management and why we need to try it out.
-                    </p>
-
-
-                </div>
-
-                <div class="col-md-4">
-                    <h5 class=" font-weight-bold">
-                        Cyber Security
-                    </h5>
-
-                    <p class="">
-                        Some content about cyber security and we you need it. And we try and convince
-                    </p>
-
-
-                </div>
-            </div>
-
-        </!-->
-    </section>
-
-    <section class="padding">
-        <div class="container wow fadeIn">
-            <h2 class="text-danger font-weight-bold">
-                Works
-            </h2>
-
-            <h5>Selected Projects</h5>
-            <br>
-            <div class="row">
-                <div class="col-md-3 ">
-                    <div class="images "></div>
-                    <div class="row">
-                        <div class="col">
-                            <p>Web-design</p>
-                        </div>
-                        <div class="col"><i>Client one</i></div>
-
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="images "></div>
-                    <div class="row">
-                        <div class="col">
-                            <p>Web-design</p>
-                        </div>
-                        <div class="col"><i>Client one</i></div>
-
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="images "></div>
-                    <div class="row">
-                        <div class="col">
-                            <p>Web-design</p>
-                        </div>
-                        <div class="col"><i>Client one</i></div>
-
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="images "></div>
-                    <div class="row">
-                        <div class="col">
-                            <p>Web-design</p>
-                        </div>
-                        <div class="col"><i>Client one</i></div>
-
-                    </div>
-                </div>
-
-            </div>
-
-          
-
-        </<div>
-    </section>
-
-    <section class="bg-grey padding text-center wow fadeIn">
-        <!-- <div class="container "> -->
-            <h2 class="text-danger font-weight-bold">Clientele</h2>
-            <h5>Building lasting relationships</h5>
-            <br>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="cert">
-                        <br>
-                        <div class="cert-img">
-                            <img src="./asset/photo/9mobile Logo.svg" alt="">
-                        </div>
-                        <br>
-                        <h5 class="heading"> </h5>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="cert">
-                        <br>
-                        <div class="cert-img">
-                            <img src="./asset/photo/Airtel Nigeria Logo.svg" alt="">
-                        </div>
-                        <br>
-                        <h5 class="heading"> </h5>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="cert">
-                        <br>
-                        <div class="cert-img">
-                            <img src="./asset/photo/MTN Logo.svg" alt="">
-                        </div>
-                        <br>
-                        <h5 class="heading"> </h5>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="cert">
-                        <br>
-                        <div class="cert-img">
-                            <img src="./asset/photo/Quickteller Logo.svg" alt="">
-                        </div>
-                        <br>
-                        <h5 class="heading"> </h5>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4">
-                    <div class="cert">
-                        <br>
-                        <div class="cert-img">
-                            <img src="./asset/photo/Opera Logo.svg" alt="">
-                        </div>
-                        <br>
-                        <h5 class="heading"> </h5>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="cert">
-                        <br>
-                        <div class="cert-img">
-                            <img src="./asset/photo/Arik Air Logo.svg" alt="">
-                        </div>
-                        <br>
-                        <h5 class="heading"> </h5>
-                    </div>
-                </div>
-
-
-            </div>
-
+    <section class="bg-grey">
+        <div class="row no-gutters">
            
+            <div class="col-md-6 " style="background: url('./asset/photo/rom.jpg'); background-size: cover">
+                <div class='pattern-overlay'></div> 
+                <!-- <div class="background-overlay color-black multiply"></div>  -->
+               
+
+            </div>
+
+            <div class="col-md-6 bg-grey form" style="z-index: 1">
+                <div class="container-fluid">
+                    <div class="header-text--content wow fadeIn ">
+                    <h3 class="text-danger font-weight-bold text-uppercase"> Our Purpose</h3> <br>
+
+                     <h6 class="text-justify">
+                            At OT&T we always aim to provide unique, tailor-made and enhanced services through building relationships with a wide range of clients. We provide value to all our customers by understanding their business, listening to their goals and understanding their challenges in achieving them. We are locally proﬁcient but we build on global relationships and partnerships to provide and enhance our services and delivery.
+                     </h6>
+                </div>
+            </div>
+
         </div>
     </section>
+
+    <section class="bg-black text-light padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9 wow fadeIn">
+                        <h2 class="text-center  font-weight-bold text-uppercase">Our Mission</h4>
+                            <h5 class=" text-center"> OT&T's mission is to develop local human capital, build long term
+                                relationships with our customers and provide exceptional services that exceed expectations
+                                through innovation and advanced technology. </h5>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section>
+            <!-- <div class="container"> -->
+                <div class="row no-gutters">
+
+                    
+                    <div class="col-md-6 ">
+                        <div class="container-fluid">
+                            <div class="header-text--content ">
+                                <h1 class="font-weight-bold">We <br>  <span class="text-danger innovate">
+                                    </span></h1>
+                                <br>
+                                <h6 class="header-text--subtitle weight-light">Innovation & advanced technology</h6>
+                                <br>
+                                <button class="btn btn-outline-danger"><i class="fa fa-envelope-open"></i> Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6  " style="background: url('./asset/photo/project.jpg'); background-size: cover">
+                        <div class='pattern-overlay'></div> 
+                        <!-- <div class="background-overlay color-black multiply"></div>  -->
+                       
+        
+                    </div>
+                   
+    
+                </div>
+          
+      
+        </section>
+    
+
+    <section class="padding" id="mapid">
+            <!-- <div class='pattern-overlay'></div>  -->
+       
+    </section>
+
+  
 
     <footer class="padding text-light bg-black">
-        <div class="container wow fadeIn">
-            <div class="row">
+        <div class="container">
+            <div class="row wow fadeIn">
                 <div class="col-md-4">
                     <h4 class="">Let's talk?</h4>
                     <h6>info@otandtconsulting.com</h6>
@@ -370,14 +212,50 @@
 
     <script>
         var typed = new Typed('.element', {
-            strings: ["Web design", " <i class='fa fa-code'></i> Web design",
-                "<i class='fa fa-code'></i>  Application", " <i class='fa fa-briefcase'></i>  Project"
+            strings: [ "Your trusted IT Partner",
+                "Ready to serve you ", "Oak"
             ],
-            typeSpeed: 120,
-            startDelay: 1000,
-            // shuffle: true,
+            typeSpeed: 60,
+            startDelay: 60,
+            shuffle: true,
             loop: true
         });
+
+        var typed = new Typed('.innovate', {
+            strings: ["develop <i class='fa fa-code'></i>","deploy <i class='fa fa-rocket'></i>",
+                "support <i class='fa fa-support'></i>", "Manage Projects <i class='fa fa-briefcase'></>"
+            ],
+            typeSpeed: 60,
+            startDelay: 60,
+            shuffle: true,
+            loop: true
+        });
+
+
+        var mymap = L.map('mapid').setView([6.4352253, 3.417204], 14);
+
+            var circle = L.circle([6.4352253, 3.417204], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 10
+            }).addTo(mymap);
+
+            var marker = L.marker([6.4352253, 3.417204]).addTo(mymap);
+            
+            marker.bindPopup("<b>OT&T Consulting</b><br>24 Kofo Abayomi Street").openPopup();
+            
+        
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaGVsbG9hZGVtb2xhIiwiYSI6ImNqejF2Zjk4bjBwN2szZGxvbjR0czhxdXAifQ.rfN2f6w9Ig_W-i2rQvMcWA', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    accessToken: 'pk.eyJ1IjoiaGVsbG9hZGVtb2xhIiwiYSI6ImNqejF2Zjk4bjBwN2szZGxvbjR0czhxdXAifQ.rfN2f6w9Ig_W-i2rQvMcWA'
+
+}).addTo(mymap);
+
+
     </script>
 </body>
 

@@ -21,6 +21,15 @@ body p{
     margin: 1em 0;
 }
 
+.images2{
+    background: url('../asset/photo/brt.png');
+    width: 100%;
+    height: 18em;
+    background-size: cover;
+    /* border: 1px solid brown; */
+    margin: 1em 0;
+}
+
 
 .cert-img img{
     width: 10em;
@@ -33,6 +42,7 @@ body p{
     filter: none;
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01);
+
   }
 
 
@@ -76,17 +86,16 @@ body p{
     min-height: 100%;
 }
 
-@media (max-width: 500px) {
-    .hidden-sm-down{
-        display: none;
-    }
-}
-
 .form input{
     border: none;
     border-bottom: 2px solid #000000;
     /* padding-left: 1em; */
     background: none;
+}
+
+.service-homepage div{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -179,4 +188,10 @@ h1, h2, h3, h4, h5, h6{
 
 #mapid{
     height: 400px;
+}
+
+@media (max-width: 500px) {
+    .hidden-sm-down{
+        display: none;
+    }
 }
