@@ -98,21 +98,27 @@ body p{
     margin-bottom: 1em;
 }
 
+.bg-olive{
+    background: yellowgreen;
+    /* rgb(140,198,63) */
+}
+
+.text-danger{
+    color: yellowgreen !important;
+}
+
 .navbar-light .navbar-nav .nav-link{
-    color: #000000;
+    color: #fff;
 }
 
 .pad{
     padding-left: 4em;
 }
 
-.btn{
-    /* border-radius: 20px; */
-    /* padding:; */
-}
+
 
 .btn:hover{
-    background: tomato;
+    background: yellowgreen;
     border: none;
    
 }
